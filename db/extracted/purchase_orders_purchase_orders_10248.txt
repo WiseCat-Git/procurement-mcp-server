@@ -1,9 +1,0 @@
-Purchase Orders
-Order ID Order Date Customer Name
-10248 2016-07-04 Paul Henriot
-Products
-Product ID: Product: Quantity: Unit Price:
-11 Queso Cabrales 12 14
-42 Singaporean Hokkien Fried Mee 10 9.8
-72 Mozzarella di Giovanni 5 34.8
-Page 1

@@ -1,6 +1,0 @@
-Stock Report for 2017-06
-Category : Produce
-id category : 7
-Product Units Sold Units in Stock Unit Price
-Tofu 56 35 23.25
-Manjimup Dried Apples 93 20 53

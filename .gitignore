@@ -1,0 +1,6 @@
+﻿venv/
+db/knowledge_base.db
+db/extracted/
+__pycache__/
+*.pyc
+.DS_Store
