@@ -139,6 +139,64 @@ Each tool returns structured results with `source` (filename) and `category` fie
 
 ---
 
+## Running the test suite
+
+A programmatic test script validates all 8 MCP tools directly without requiring a running MCP client:
+
+```bash
+python test_tools.py
+```
+
+Expected output:
+```
+── search_documents ──────────────────────────────────────────
+  PASS  search_documents: finds vendor by name
+  PASS  search_documents: category filter works
+── get_document ──────────────────────────────────────────────
+  PASS  get_document: retrieves known invoice
+  PASS  get_document: returns error for unknown doc
+── match_order ───────────────────────────────────────────────
+  PASS  match_order: order 10248 has invoice + PO + shipment
+  PASS  match_order: order 10687 missing PO
+── find_mismatches ───────────────────────────────────────────
+  PASS  find_mismatches: finds invoices without PO
+  PASS  find_mismatches: finds POs without invoice
+── list_inventory_periods ────────────────────────────────────
+  PASS  list_inventory_periods: returns 7 reports spanning 2016–2018
+── get_contract_terms ────────────────────────────────────────
+  PASS  get_contract_terms: finds delivery terms in contract
+── get_related_documents ─────────────────────────────────────
+  PASS  get_related_documents: invoice_10248 has related docs
+  PASS  get_related_documents: batch invoice with no order_id handled gracefully
+── search_by_vendor ──────────────────────────────────────────
+  PASS  search_by_vendor: finds TotalEnergies contract
+  PASS  search_by_vendor: finds Hungry Owl documents
+───────────────────────────────────────────────────────
+  Results: 14 passed, 0 failed out of 14 tests
+───────────────────────────────────────────────────────
+```
+
+Each test validates a specific capability:
+
+| Test | What it validates |
+|---|---|
+| `search_documents: finds vendor by name` | FTS search returns results for a known vendor |
+| `search_documents: category filter works` | Category parameter correctly scopes results |
+| `get_document: retrieves known invoice` | Document lookup by ID returns correct order and category |
+| `get_document: returns error for unknown doc` | Graceful error handling for missing documents |
+| `match_order: order 10248 has invoice + PO + shipment` | Full match — all three document types present |
+| `match_order: order 10687 missing PO` | Partial match — correctly identifies missing PO |
+| `find_mismatches: finds invoices without PO` | Mismatch detection returns results |
+| `find_mismatches: finds POs without invoice` | Reverse mismatch detection works |
+| `list_inventory_periods: returns 7 reports spanning 2016–2018` | All inventory reports ingested with correct date range |
+| `get_contract_terms: finds delivery terms in contract` | FTS finds relevant passage in contract body |
+| `get_related_documents: invoice_10248 has related docs` | Cross-document linking via shared order ID works |
+| `get_related_documents: batch invoice with no order_id handled gracefully` | Edge case — null order ID handled without error |
+| `search_by_vendor: finds TotalEnergies contract` | Vendor search finds contract document |
+| `search_by_vendor: finds Hungry Owl documents` | Vendor search finds transactional documents |
+
+---
+
 ## Architecture overview
 
 ```
@@ -199,6 +257,36 @@ MCP Server (FastMCP, stdio)
 - **5 batch JPG invoices** (batch1-1486, batch1-1488, batch2-0998/0999/1000) have noisy OCR output. Order IDs could not be reliably extracted from 3 of them due to handwritten or degraded text. They are stored with `order_id = NULL` and flagged as unmatched.
 - **Contract order ID** was incorrectly parsed from the filename date (20231231 → 20231). Contracts are not order-linked by design and are queried via `get_contract_terms` instead.
 - **Vendor extraction** is regex-based and may miss vendors with non-standard formatting. A production pipeline would use a dedicated NER model.
+
+---
+
+## Structured extraction vs document retrieval
+
+This system uses a **hybrid approach** depending on the document type and query:
+
+**Structured extraction** is used for fields that appear consistently across documents — order ID, vendor name, date, amount, period. These are parsed at ingestion time via regex and stored as indexed columns. Queries like "which invoices are missing a PO?" run as pure SQL joins on these fields — fast, deterministic, and explainable.
+
+**Document retrieval** (FTS5) is used for unstructured content — contract clauses, inventory descriptions, vendor mentions in body text. When a query can't be answered from structured fields alone, the FTS index scans extracted raw text across all documents.
+
+The decision boundary is simple: if the answer lives in a known field, use structured extraction. If the answer requires reading the document, use full-text retrieval. The `get_contract_terms` tool is a good example of the latter — contracts don't have structured fields, so the tool searches raw text and returns the most relevant passage with surrounding context.
+
+---
+
+## Future improvements
+
+Given more time, the following would meaningfully improve the system:
+
+**Semantic / hybrid search.** FTS5 is keyword-based and won't match synonyms or paraphrases. Adding a lightweight embedding model (e.g. `sentence-transformers/all-MiniLM-L6-v2`) alongside FTS5 would improve recall for contract and inventory queries where exact keyword matches may not exist. A hybrid BM25 + vector re-rank approach would be the right next step.
+
+**Better OCR post-processing.** The 5 JPG invoices produced noisy OCR output. A post-processing step using regex normalization and confidence thresholds would improve field extraction accuracy on scanned documents. For production, a dedicated document AI model (e.g. Azure Document Intelligence) would handle these more reliably.
+
+**Vendor entity resolution.** Vendor names are inconsistently formatted across documents. A simple fuzzy matching step (e.g. `rapidfuzz`) at ingestion time would normalize vendor names and improve `search_by_vendor` recall significantly.
+
+**Richer relationship graph.** The current `document_links` table joins only on order ID. A more complete graph would also link documents by vendor, date range, and line item — enabling queries like "show all documents related to this vendor in Q4 2017."
+
+**Pipeline incremental updates.** The current pipeline re-processes all documents on every run. An incremental mode that only processes new or modified files would be important for a growing document corpus.
+
+**MCP resources in addition to tools.** The current server exposes only tools. Adding MCP resources (e.g. a browsable document index) would give AI agents a way to explore the knowledge base without needing to know specific query terms upfront.
 
 ---
 
