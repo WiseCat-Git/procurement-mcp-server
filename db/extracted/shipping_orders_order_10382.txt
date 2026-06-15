@@ -1,0 +1,47 @@
+Order ID: 10382
+Shipping Details:
+Ship Name: Ernst Handel
+Ship Address: Kirchgasse 6
+Ship City: Graz
+Ship Region: Western Europe
+Ship Postal Code: 8010
+Ship Country: Austria
+Customer Details:
+Customer ID: ERNSH
+Customer Name: Ernst Handel
+Employee Details:
+Employee Name: Margaret Peacock
+Shipper Details:
+Shipper ID: 1
+Shipper Name: Speedy Express
+Order Details:
+Order Date: 2016-12-13
+Shipped Date: 2016-12-16
+Products:
+--------------------------------------------------------------------------------------------------
+Product: Chef Anton's Gumbo Mix
+Quantity: 32
+Unit Price: 17.0
+Total: 544.0
+--------------------------------------------------------------------------------------------------
+Product: Carnarvon Tigers
+Quantity: 9
+Unit Price: 50.0
+Total: 450.0
+--------------------------------------------------------------------------------------------------
+Product: Thüringer Rostbratwurst
+Quantity: 14
+Unit Price: 99.0
+Total: 1386.0
+--------------------------------------------------------------------------------------------------
+Product: Geitost
+Quantity: 60
+Unit Price: 2.0
+Total: 120.0
+--------------------------------------------------------------------------------------------------
+Product: Longlife Tofu
+Quantity: 50
+Unit Price: 8.0
+Total: 400.0
+Total Price:
+Total Price: 2900.0

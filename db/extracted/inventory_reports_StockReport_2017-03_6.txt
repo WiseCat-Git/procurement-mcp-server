@@ -1,0 +1,8 @@
+Stock Report for 2017-03
+Category : Meat/Poultry
+id category : 6
+Product Units Sold Units in Stock Unit Price
+Thüringer Rostbratwurst 18 0 123.79
+Perth Pasties 28 0 32.8
+Tourtière 24 21 7.45
+Pâté chinois 32 115 24

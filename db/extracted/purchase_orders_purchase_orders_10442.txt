@@ -1,0 +1,9 @@
+Purchase Orders
+Order ID Order Date Customer Name
+10442 2017-02-11 Roland Mendel
+Products
+Product ID: Product: Quantity: Unit Price:
+11 Queso Cabrales 30 16.8
+54 Tourtière 80 5.9
+66 Louisiana Hot Spiced Okra 60 13.6
+Page 1

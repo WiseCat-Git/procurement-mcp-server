@@ -1,0 +1,32 @@
+Order ID: 10839
+Shipping Details:
+Ship Name: Tradiçao Hipermercados
+Ship Address: Av. Inês de Castro, 414
+Ship City: Sao Paulo
+Ship Region: South America
+Ship Postal Code: 05634-030
+Ship Country: Brazil
+Customer Details:
+Customer ID: TRADH
+Customer Name: Tradição Hipermercados
+Employee Details:
+Employee Name: Janet Leverling
+Shipper Details:
+Shipper ID: 3
+Shipper Name: Federal Shipping
+Order Details:
+Order Date: 2018-01-19
+Shipped Date: 2018-01-22
+Products:
+--------------------------------------------------------------------------------------------------
+Product: Escargots de Bourgogne
+Quantity: 30
+Unit Price: 13.25
+Total: 397.5
+--------------------------------------------------------------------------------------------------
+Product: Mozzarella di Giovanni
+Quantity: 15
+Unit Price: 34.8
+Total: 522.0
+Total Price:
+Total Price: 919.5

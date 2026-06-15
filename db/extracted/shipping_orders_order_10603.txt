@@ -1,0 +1,32 @@
+Order ID: 10603
+Shipping Details:
+Ship Name: Save-a-lot Markets
+Ship Address: 187 Suffolk Ln.
+Ship City: Boise
+Ship Region: North America
+Ship Postal Code: 83720
+Ship Country: USA
+Customer Details:
+Customer ID: SAVEA
+Customer Name: Save-a-lot Markets
+Employee Details:
+Employee Name: Laura Callahan
+Shipper Details:
+Shipper ID: 2
+Shipper Name: United Package
+Order Details:
+Order Date: 2017-07-18
+Shipped Date: 2017-08-08
+Products:
+--------------------------------------------------------------------------------------------------
+Product: Gustaf's Knäckebröd
+Quantity: 48
+Unit Price: 21.0
+Total: 1008.0
+--------------------------------------------------------------------------------------------------
+Product: Maxilaku
+Quantity: 25
+Unit Price: 20.0
+Total: 500.0
+Total Price:
+Total Price: 1508.0

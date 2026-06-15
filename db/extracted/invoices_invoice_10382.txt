@@ -1,0 +1,21 @@
+Invoice
+Order ID: 10382
+Customer ID: ERNSH
+Order Date: 2016-12-13
+Customer Details:
+Contact Name: Roland Mendel
+Address: Kirchgasse 6
+City: Graz
+Postal Code: 8010
+Country: Austria
+Phone: 7675-3425
+Fax: 7675-3426
+Product Details:
+Product ID Product Name Quantity Unit Price
+5 Chef Anton's Gumbo Mix 32 17.0
+18 Carnarvon Tigers 9 50.0
+29 Thüringer Rostbratwurst 14 99.0
+33 Geitost 60 2.0
+74 Longlife Tofu 50 8.0
+TotalPrice 2900.0
+Page 1

@@ -1,0 +1,37 @@
+Order ID: 10711
+Shipping Details:
+Ship Name: Save-a-lot Markets
+Ship Address: 187 Suffolk Ln.
+Ship City: Boise
+Ship Region: North America
+Ship Postal Code: 83720
+Ship Country: USA
+Customer Details:
+Customer ID: SAVEA
+Customer Name: Save-a-lot Markets
+Employee Details:
+Employee Name: Steven Buchanan
+Shipper Details:
+Shipper ID: 2
+Shipper Name: United Package
+Order Details:
+Order Date: 2017-10-21
+Shipped Date: 2017-10-29
+Products:
+--------------------------------------------------------------------------------------------------
+Product: Teatime Chocolate Biscuits
+Quantity: 12
+Unit Price: 9.2
+Total: 110.39999999999999
+--------------------------------------------------------------------------------------------------
+Product: Jack's New England Clam Chowder
+Quantity: 42
+Unit Price: 9.65
+Total: 405.3
+--------------------------------------------------------------------------------------------------
+Product: Perth Pasties
+Quantity: 120
+Unit Price: 32.8
+Total: 3935.9999999999995
+Total Price:
+Total Price: 4451.7

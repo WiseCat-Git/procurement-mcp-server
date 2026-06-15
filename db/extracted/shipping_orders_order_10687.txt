@@ -1,0 +1,37 @@
+Order ID: 10687
+Shipping Details:
+Ship Name: Hungry Owl All-Night Grocers
+Ship Address: 8 Johnstown Road
+Ship City: Cork
+Ship Region: British Isles
+Ship Postal Code: None
+Ship Country: Ireland
+Customer Details:
+Customer ID: HUNGO
+Customer Name: Hungry Owl All-Night Grocers
+Employee Details:
+Employee Name: Anne Dodsworth
+Shipper Details:
+Shipper ID: 2
+Shipper Name: United Package
+Order Details:
+Order Date: 2017-09-30
+Shipped Date: 2017-10-30
+Products:
+--------------------------------------------------------------------------------------------------
+Product: Mishi Kobe Niku
+Quantity: 50
+Unit Price: 97.0
+Total: 4850.0
+--------------------------------------------------------------------------------------------------
+Product: Thüringer Rostbratwurst
+Quantity: 10
+Unit Price: 123.79
+Total: 1237.9
+--------------------------------------------------------------------------------------------------
+Product: Inlagd Sill
+Quantity: 6
+Unit Price: 19.0
+Total: 114.0
+Total Price:
+Total Price: 6201.9

@@ -1,0 +1,32 @@
+Order ID: 10822
+Shipping Details:
+Ship Name: Trail-s Head Gourmet Provisioners
+Ship Address: 722 DaVinci Blvd.
+Ship City: Kirkland
+Ship Region: North America
+Ship Postal Code: 98034
+Ship Country: USA
+Customer Details:
+Customer ID: TRAIH
+Customer Name: Trail's Head Gourmet Provisioners
+Employee Details:
+Employee Name: Michael Suyama
+Shipper Details:
+Shipper ID: 3
+Shipper Name: Federal Shipping
+Order Details:
+Order Date: 2018-01-08
+Shipped Date: 2018-01-16
+Products:
+--------------------------------------------------------------------------------------------------
+Product: Tarte au sucre
+Quantity: 3
+Unit Price: 49.3
+Total: 147.89999999999998
+--------------------------------------------------------------------------------------------------
+Product: Outback Lager
+Quantity: 6
+Unit Price: 15.0
+Total: 90.0
+Total Price:
+Total Price: 237.89999999999998

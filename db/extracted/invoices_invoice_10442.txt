@@ -1,0 +1,19 @@
+Invoice
+Order ID: 10442
+Customer ID: ERNSH
+Order Date: 2017-02-11
+Customer Details:
+Contact Name: Roland Mendel
+Address: Kirchgasse 6
+City: Graz
+Postal Code: 8010
+Country: Austria
+Phone: 7675-3425
+Fax: 7675-3426
+Product Details:
+Product ID Product Name Quantity Unit Price
+11 Queso Cabrales 30 16.8
+54 Tourtière 80 5.9
+66 Louisiana Hot Spiced Okra 60 13.6
+TotalPrice 1792.0
+Page 1

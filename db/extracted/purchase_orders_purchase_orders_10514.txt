@@ -1,0 +1,11 @@
+Purchase Orders
+Order ID Order Date Customer Name
+10514 2017-04-22 Roland Mendel
+Products
+Product ID: Product: Quantity: Unit Price:
+20 Sir Rodney's Marmalade 39 81
+28 Rössle Sauerkraut 35 45.6
+56 Gnocchi di nonna Alice 70 38
+65 Louisiana Fiery Hot Pepper Sauce 39 21.05
+75 Rhönbräu Klosterbier 50 7.75
+Page 1

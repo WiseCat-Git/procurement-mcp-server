@@ -1,0 +1,42 @@
+Order ID: 10930
+Shipping Details:
+Ship Name: Suprêmes délices
+Ship Address: Boulevard Tirou, 255
+Ship City: Charleroi
+Ship Region: Western Europe
+Ship Postal Code: B-6000
+Ship Country: Belgium
+Customer Details:
+Customer ID: SUPRD
+Customer Name: Suprêmes délices
+Employee Details:
+Employee Name: Margaret Peacock
+Shipper Details:
+Shipper ID: 3
+Shipper Name: Federal Shipping
+Order Details:
+Order Date: 2018-03-06
+Shipped Date: 2018-03-18
+Products:
+--------------------------------------------------------------------------------------------------
+Product: Sir Rodney's Scones
+Quantity: 36
+Unit Price: 10.0
+Total: 360.0
+--------------------------------------------------------------------------------------------------
+Product: Schoggi Schokolade
+Quantity: 25
+Unit Price: 43.9
+Total: 1097.5
+--------------------------------------------------------------------------------------------------
+Product: Pâté chinois
+Quantity: 25
+Unit Price: 24.0
+Total: 600.0
+--------------------------------------------------------------------------------------------------
+Product: Escargots de Bourgogne
+Quantity: 30
+Unit Price: 13.25
+Total: 397.5
+Total Price:
+Total Price: 2455.0

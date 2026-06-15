@@ -1,0 +1,8 @@
+Purchase Orders
+Order ID Order Date Customer Name
+10603 2017-07-18 Jose Pavarotti
+Products
+Product ID: Product: Quantity: Unit Price:
+22 Gustaf's Knäckebröd 48 21
+49 Maxilaku 25 20
+Page 1

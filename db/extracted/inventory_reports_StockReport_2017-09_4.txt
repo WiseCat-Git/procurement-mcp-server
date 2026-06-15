@@ -1,0 +1,11 @@
+Stock Report for 2017-09
+Category : Dairy Products
+id category : 4
+Product Units Sold Units in Stock Unit Price
+Queso Manchego La Pastora 100 86 38
+Gorgonzola Telino 48 0 12.5
+Geitost 68 112 2.5
+Raclette Courdavault 13 79 55
+Camembert Pierrot 135 19 34
+Gudbrandsdalsost 45 26 36
+Flotemysost 26 26 21.5

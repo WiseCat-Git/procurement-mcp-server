@@ -1,0 +1,42 @@
+Order ID: 10436
+Shipping Details:
+Ship Name: Blondel père et fils
+Ship Address: 24, place Kléber
+Ship City: Strasbourg
+Ship Region: Western Europe
+Ship Postal Code: 67000
+Ship Country: France
+Customer Details:
+Customer ID: BLONP
+Customer Name: Blondesddsl père et fils
+Employee Details:
+Employee Name: Janet Leverling
+Shipper Details:
+Shipper ID: 2
+Shipper Name: United Package
+Order Details:
+Order Date: 2017-02-05
+Shipped Date: 2017-02-11
+Products:
+--------------------------------------------------------------------------------------------------
+Product: Spegesild
+Quantity: 5
+Unit Price: 9.6
+Total: 48.0
+--------------------------------------------------------------------------------------------------
+Product: Gnocchi di nonna Alice
+Quantity: 40
+Unit Price: 30.4
+Total: 1216.0
+--------------------------------------------------------------------------------------------------
+Product: Wimmers gute Semmelknödel
+Quantity: 30
+Unit Price: 26.6
+Total: 798.0
+--------------------------------------------------------------------------------------------------
+Product: Rhönbräu Klosterbier
+Quantity: 24
+Unit Price: 6.2
+Total: 148.8
+Total Price:
+Total Price: 2210.8

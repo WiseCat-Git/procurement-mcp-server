@@ -1,0 +1,9 @@
+Stock Report for 2016-07
+Category : Seafood
+id category : 8
+Product Units Sold Units in Stock Unit Price
+Nord-Ost Matjeshering 60 10 25.89
+Inlagd Sill 25 112 19
+Gravad lax 1 11 26
+Boston Crab Meat 50 123 18.4
+Jack's New England Clam Chowder 51 85 9.65

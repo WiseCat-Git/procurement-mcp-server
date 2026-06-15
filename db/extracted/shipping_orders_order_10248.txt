@@ -1,0 +1,37 @@
+Order ID: 10248
+Shipping Details:
+Ship Name: Vins et alcools Chevalier
+Ship Address: 59 rue de l-Abbaye
+Ship City: Reims
+Ship Region: Western Europe
+Ship Postal Code: 51100
+Ship Country: France
+Customer Details:
+Customer ID: VINET
+Customer Name: Vins et alcools Chevalier
+Employee Details:
+Employee Name: Steven Buchanan
+Shipper Details:
+Shipper ID: 3
+Shipper Name: Federal Shipping
+Order Details:
+Order Date: 2016-07-04
+Shipped Date: 2016-07-16
+Products:
+--------------------------------------------------------------------------------------------------
+Product: Queso Cabrales
+Quantity: 12
+Unit Price: 14.0
+Total: 168.0
+--------------------------------------------------------------------------------------------------
+Product: Singaporean Hokkien Fried Mee
+Quantity: 10
+Unit Price: 9.8
+Total: 98.0
+--------------------------------------------------------------------------------------------------
+Product: Mozzarella di Giovanni
+Quantity: 5
+Unit Price: 34.8
+Total: 174.0
+Total Price:
+Total Price: 440.0

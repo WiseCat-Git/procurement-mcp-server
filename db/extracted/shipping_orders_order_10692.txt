@@ -1,0 +1,27 @@
+Order ID: 10692
+Shipping Details:
+Ship Name: Alfred-s Futterkiste
+Ship Address: Obere Str. 57
+Ship City: Berlin
+Ship Region: Western Europe
+Ship Postal Code: 12209
+Ship Country: Germany
+Customer Details:
+Customer ID: ALFKI
+Customer Name: Alfreds Futterkiste
+Employee Details:
+Employee Name: Margaret Peacock
+Shipper Details:
+Shipper ID: 2
+Shipper Name: United Package
+Order Details:
+Order Date: 2017-10-03
+Shipped Date: 2017-10-13
+Products:
+--------------------------------------------------------------------------------------------------
+Product: Vegie-spread
+Quantity: 20
+Unit Price: 43.9
+Total: 878.0
+Total Price:
+Total Price: 878.0

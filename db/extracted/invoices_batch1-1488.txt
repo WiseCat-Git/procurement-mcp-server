@@ -1,0 +1,109 @@
+Invoice no: 77833987
+
+Date of issue:
+
+Seller:
+
+Freeman and Sons
+67728 Hebert Parkway
+Howeburgh, OH 93802
+
+Tax Id: 973-76-8676
+IBAN: GB43RCPI15397639476218
+
+ITEMS
+No. Description Qty
+
+ils Introduction to Thematic 1,00
+Cartography
+
+2. Sonic Wind The Story of John 1,00
+Paul Stapp and How a Renegade
+Doctor Be
+
+a Entertaining 1,00
+
+4. Rebecca to the Rescue 2,00
+
+(American Girl (Quality))
+
+De Gulag archipelago / Gulag 3,00
+Archipelago Volume 2 / 1st
+edition paperbacks
+
+SUMMARY
+
+VAT [%]
+10%
+
+Total
+
+05/20/2013
+
+UM
+
+eacn
+
+eacn
+
+eacn
+
+eacn
+
+eacn
+
+Client:
+
+Houston Group
+
+195 Deanna Rue
+Robertshire, WY 74880
+
+Tax Id: 901-88-1175
+
+Net price
+
+8,99
+
+4,49
+
+4,49
+
+4,89
+
+30,00
+
+Net worth
+LEAS)
+
+$ 117,75
+
+Net worth VAT [%]
+8,99 10%
+4,49 10%
+4,49 10%
+9,78 10%
+90,00 10%
+VAT
+11,78
+$11,78
+
+Gross
+
+worth
+
+9,89
+
+4,94
+
+4,94
+
+10,76
+
+99,00
+
+Gross worth
+
+129,53
+
+$ 129,53
